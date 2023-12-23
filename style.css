@@ -1,0 +1,102 @@
+.body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 1%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(221, 170, 214);
+    color: #f1120a;
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    background-color: rgb(128, 103, 218);
+    padding: 10px;
+}
+nav a{
+    color: rgb(22, 22, 22);
+    text-decoration: solid;
+    padding: 8px 16px;
+    margin: 10px;
+    border: 4px;
+    background-color: #ff0808;
+}
+main{
+    max-width: 800px;
+    margin: auto 20px;
+    padding: 20px;
+    background-color: rgb(98, 97, 100);
+    border:  1px solid #ddf;
+    border-radius: 8px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #cf7070;
+    color: rgb(192, 4, 4);
+}
+.pics{
+    width: 100px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    background: linear-gradient(to right, #7677b9, #81766c);
+    color: white;
+}
+.header {
+    padding: 30px;
+    margin: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+.leftcolumn {   
+    float: left;
+    width: 67%;
+    margin-left: 50px;
+}
+  
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+
+}
+  
+.samplebg {
+    width: 850px;
+    border: 5px solid black;
+}
+.pics{
+    width: 100%;
+}
+  
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+}
